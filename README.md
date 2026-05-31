@@ -1,2 +1,2 @@
 # citc-style-site
-![Project Logo](logo 2.png) 
+![Project Logo](logo2.png)
