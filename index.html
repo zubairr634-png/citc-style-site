@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Community Football Project</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+  }
+
+  /* NAVBAR */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #0b1f3a;
+    color: white;
+    font-weight: bold;
+  }
+
+  /* HERO */
+  .hero {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      url("https://images.unsplash.com/photo-1508098682722-e99c43a406b2");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 60px;
+  }
+
+  .hero h1 {
+    font-size: 60px;
+    margin: 0;
+  }
+
+  .hero p {
+    font-size: 20px;
+    max-width: 600px;
+  }
+
+  .btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #00aaff;
+    border: none;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+  }
+
+  /* SECTION */
+  .section {
+    padding: 60px;
+  }
+
+  .section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  /* CARDS */
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  }
+
+  .footer {
+    background: #0b1f3a;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="nav">
+  <div>Community FC</div>
+  <div>Home | Programs | News | Contact</div>
+</div>
+
+<div class="hero">
+  <h1>Changing Lives Through Football</h1>
+  <p>We use the power of sport to build stronger, healthier communities and support young people.</p>
+  <button class="btn">Learn More</button>
+</div>
+
+<div class="section">
+  <h2>Our Programs</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Youth Coaching</h3>
+      <p>Helping young players develop skills and confidence.</p>
+    </div>
+
+    <div class="card">
+      <h3>Health & Fitness</h3>
+      <p>Promoting healthy lifestyles through sport.</p>
+    </div>
+
+    <div class="card">
+      <h3>Community Events</h3>
+      <p>Bringing people together through football activities.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Latest News</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>New Training Camp</h3>
+      <p>We launched a new summer training program for youth players.</p>
+    </div>
+
+    <div class="card">
+      <h3>Community Day</h3>
+      <p>Over 500 people attended our latest community football event.</p>
+    </div>
+
+    <div class="card">
+      <h3>Partnership Update</h3>
+      <p>New partnerships announced to support local development projects.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  © 2026 Community Football Project
+</div>
+
+</body>
+</html>
